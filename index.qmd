@@ -1,0 +1,21 @@
+---
+title: "GRANTED"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: true
+---
+
+# AI4RA BLOG CONTENT
+
+This is meant to provide a crude example of blog content for the AI4RA project, and provide a venue for Barrie to experiment with various content categories, tags, post structures, etc.  
+
+Of course, it will eventually live on the [AI4RA Website](https://ai4ra.uidaho.edu).
+
+
+

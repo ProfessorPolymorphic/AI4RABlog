@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "ALL HAIL OUR NEW ROBOT OVERLORDS\nHow do we integrate AI into Research Administration workflows? How do we create AI tools for Research Administration that are provably ACCURATE, REPRODUCIBLE, and SECURE? How do we prevent Sarah from becoming drunk with power and making us all wear silly hats?"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To AI4RA!",
+    "section": "",
+    "text": "Together we shall forge our path through the INNOVATION VALLEY OF DEATH!\n\nSeriously. content!"
+  },
+  {
+    "objectID": "posts/NewTask/index.html",
+    "href": "posts/NewTask/index.html",
+    "title": "Creating and Testing a New Task",
+    "section": "",
+    "text": "This post is intended to demonstrate the current process for creating a new Task in Vandalizer 2.0. We are currently testing this version of Vandalizer before deploying it to production. My goal is to create a simple (I hope) TASK in Vandalizer that is part of the PreAward workflow here at the UI. Ultimately, I’d like this task to be incorporated into a WORKFLOW, in which many related tasks are performed in sequence.\n\n\nThe new version of the Vandalizer is built on Tasks, which are specific actions that we want an AI model to perform. We currently group the tasks into three categories, Extraction, Prompts, and Format. Below is a screenshot of the menu related to creating a new task.\n\nMore types of tasks are in development, but a tremendous amount of research administration relies on extracting information from documents, summarizing or synthesizing that information, and formatting the results for downstream consumers.\n\n\n\n\n\nWhen you navigate to the Vandalizer in your internet browser, you will see this screen.\n\nYou will have to authenticate with your University of Idaho credentials, and you must be on the UI network or using the UI VPN.\n\n\n\nI’ll save a detailed interface tutorial for a different post. For now, I can drag and drop this NSF FOA pdf into the window, and I will then see the file open in the viewer pane. Epic! I can always click the left pointing arrow just below Joe Vandal’s head to navigate back to the file explorer view."
+  },
+  {
+    "objectID": "posts/NewTask/index.html#tasks",
+    "href": "posts/NewTask/index.html#tasks",
+    "title": "Creating and Testing a New Task",
+    "section": "",
+    "text": "The new version of the Vandalizer is built on Tasks, which are specific actions that we want an AI model to perform. We currently group the tasks into three categories, Extraction, Prompts, and Format. Below is a screenshot of the menu related to creating a new task.\n\nMore types of tasks are in development, but a tremendous amount of research administration relies on extracting information from documents, summarizing or synthesizing that information, and formatting the results for downstream consumers."
+  },
+  {
+    "objectID": "posts/NewTask/index.html#vandalizer-interface",
+    "href": "posts/NewTask/index.html#vandalizer-interface",
+    "title": "Creating and Testing a New Task",
+    "section": "",
+    "text": "When you navigate to the Vandalizer in your internet browser, you will see this screen.\n\nYou will have to authenticate with your University of Idaho credentials, and you must be on the UI network or using the UI VPN.\n\n\n\nI’ll save a detailed interface tutorial for a different post. For now, I can drag and drop this NSF FOA pdf into the window, and I will then see the file open in the viewer pane. Epic! I can always click the left pointing arrow just below Joe Vandal’s head to navigate back to the file explorer view."
+  },
+  {
+    "objectID": "posts/NewTask/index.html#new-task",
+    "href": "posts/NewTask/index.html#new-task",
+    "title": "Creating and Testing a New Task",
+    "section": "NEW TASK",
+    "text": "NEW TASK\nI can click on the “TASKS” button in the lower right of the screen to bring up the list of existing tasks and big orange (or pride gold?) ” + NEW TASK ” button at the bottom. Click on that and you get the dialogue I showed you above. For this task, I’m choosing “Prompt”. You’ll see the foloowing dialogue box:\n\nI’m going to title my Prompt Task Contract Term Check. The really important part is what you put in the prompt box."
+  },
+  {
+    "objectID": "posts/NewTask/index.html#prompt-engineering",
+    "href": "posts/NewTask/index.html#prompt-engineering",
+    "title": "Creating and Testing a New Task",
+    "section": "PROMPT ENGINEERING",
+    "text": "PROMPT ENGINEERING\nThe key here is to be specific, provide appropriate context for the task, and provide guidance related to the structure and content of the response. Think of it like you are giving instructions to a very smart but very inexperienced undergraduate intern. Here is my first attempt at a prompt for this task:\n\n\n\n\n\n\nNote\n\n\n\nThis text is from a Funding Opportunity Announcement or related type of document. I need to analyze the text to determine if there are any problematic contractual terms with which my institution cannot comply. Please analyze the text for any reference to the following terms or conditions:\n\nRequirements of indemnification, including language related to “hold harmless”.\nRestrictions on publication or ownership of intellectual property.\nRequirements for insurance contract in a bid proposal.\nAdherence to the governing law of another state (usually Louisiana).\n\nFor each of these items, respond with a “NO” if you do not find reference to that item, and a “YES” if you find reference to that item. If your response is “YES”, provide an explanation that will help me locate the potentially problematic sections for further review.\n\n\nOnce you click Done you should see your new task in the task list under Prompt. Just click on the task and it will submit it to the LLM!"
+  },
+  {
+    "objectID": "posts/NewTask/index.html#results",
+    "href": "posts/NewTask/index.html#results",
+    "title": "Creating and Testing a New Task",
+    "section": "RESULTS",
+    "text": "RESULTS\n\nResult 1\nHere is a screenshot of our first result, which took less than 15 seconds.\n\nIt’s…. weird. The correct result in this case is “NO” to all four categories, and this is what we are getting. This whole “Analysis of Document…” with a nonsense string file name though…. I have no idea where that came from.\nLet’s run the task again without any changes (just clicking on the task again will do this). What do you think will happen? What do you think should happen?\n\n\nResult 2\nHere is a screenshot of the expanded chat window.\n\nWhat do you notice? We are still getting the same answers (Yay!), but the formatting of the result is a little different. At least it references the correct file name this time. Let’s do one more replicate of the task with no changes….\n\n\nResult 3\nHere is a screenshot of all three results in the chat interface.\n\nThe answers are still correct, but once again the formatting and information content of the response is a little different."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GRANTED",
+    "section": "",
+    "text": "AI4RA BLOG CONTENT\nThis is meant to provide a crude example of blog content for the AI4RA project, and provide a venue for Barrie to experiment with various content categories, tags, post structures, etc.\nOf course, it will eventually live on the AI4RA Website.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreating and Testing a New Task\n\n\n\n\n\n\nVandalizer\n\n\nContract\n\n\nPreAward\n\n\nTask\n\n\n\n\n\n\n\n\n\nFeb 19, 2025\n\n\nBarrie Robison\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To AI4RA!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 16, 2025\n\n\nBarrie Robison\n\n\n\n\n\n\nNo matching items"
+  }
+]
