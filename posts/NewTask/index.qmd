@@ -102,7 +102,7 @@ The answers are still correct, but once again the formatting and information con
 
 # EVALUATION
 
-We've created a new Vandalizer task that [SEEMS]{.red} to provide us the correct answers, even thought the structure and content of the response varies.  Is this good enough?  Are we done?  Are we ready to turn over this legally fraught and high risk task to the Vandalizer, saving hundreds to thousands of person hours per year?
+We've created a new Vandalizer task that [SEEMS]{.red} to provide us the correct answers, even though the structure and content of the response varies.  Is this good enough?  Are we done?  Are we ready to turn over this legally fraught and high risk task to the Vandalizer, saving hundreds to thousands of person hours per year?
 
 [NO FUCKING WAY!]{.red}
 

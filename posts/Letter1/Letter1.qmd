@@ -1,0 +1,54 @@
+---
+title: ""
+author: "Barrie Robison"
+date: "2025-02-02"
+categories: [Newsletter, Update, Vandalizer]
+image: "AI4RA.png"
+---
+
+# Dear AI4RA Community:
+ 
+My name is Barrie Robison, and I am the Director of the University of Idaho’s Institute for Interdisciplinary Data Sciences (IIDS), and Co-Principal Investigator on the NSF grant that funds the AI4RA project.
+ 
+I’m writing this note as I fly to Raleigh, NC, for the HelioCampus Community Summit.  It occurred to me that some of you might also be attending, and if so, I’d love to meet you in person and chat about our project, and how your organization is working with AI. I can also show you some of the new AI4RA software we are currently developing.  
+ 
+While I’m writing, I may as well provide a brief update on the AI4RA project:
+ 
+## RAMP-UP PHASE NEARLY COMPLETE!
+ 
+As I’m sure you all know, it takes a while to get things rolling after the award letter arrives for a new grant.  We are nearly finished with the behind-the-scenes activities, including hiring new data scientists and developers, setting up our various subcontracts and agreements, and creating a software development roadmap.  You will start to see more activity from this listserv this month, followed shortly additional website content.  Our whole team is very excited to share what we’ve created so far and our plans for future development!
+ 
+## THE VANDALIZER*
+ 
+As a brief preview, the current core of our AI4RA software portfolio is a flexible AI powered document handling framework designed specifically to integrate into Research Administration workflows.  We’ve named this tool THE VANDALIZER*, a somewhat irreverent reference to the Idaho Vandals athletics program. Our developers are stress testing VANDALIZER 2.0 on an internal development server right now, and once we squash the various bugs, we plan to deploy it on a production server for use at UI and SUU.  Our priorities for this project are flexibility, accuracy, reproducibility, and security.  I’ll provide my personal view on these priorities in a later section of this note. 
+ 
+* No, the University of Idaho Marketing team doesn’t know about our project, nor about the name we chose.  Also, no, I don’t think they will let us keep using this name…
+ 
+## OUR PRIORITIES
+ 
+What do we mean by flexibility, accuracy, reproducibility, and security?  I’ll provide my view on what these mean in the context of AI and Research Administration, and why I think they are so important.
+ 
+**Flexibility:**  The tools need to be usable by institutions of all sizes and adapt to many different data ecosystems and workflows. The efficacy of the tools should improve when the AI models improve. The tools should be able to adapt to institutional changes in workflows, data sources, and security requirements. 
+ 
+**Accuracy:**  The tools need to provide the correct information in the correct format, and without extraneous “filler”.  Whether the AI task is reductive (such as extracting data from unstructured text), transformative (such as formatting a combination of data and text into a report), or generative (such as a 2-paragraph response to a simple query related to institutional policies), we cannot tolerate hallucinations, errors of omission, or structural errors that create brittle data integrations. 
+ 
+**Reproducibility:**  The tools should produce the same answer every time.  This means that if we submit the same document to an AI workflow 100 times, we should get the same answers 100 times.   The tool should be similarly reproducible across unique versions of the same type of input.  Once you set up a workflow for an NSF award letter, it should reliably work for all future NSF award letters.  When one person in an organization creates a workflow, it should work reproducibly when it is shared with colleagues within and beyond their organization.
+ 
+**Security:** The tools should be able to adapt to the security requirements of each organization, and to the specific security requirements of a particular workflow or set of source data.  If sensitive data are involved, the tools should use AI models that meet the required security standards, such as an enterprise account with a foundational model or an on premises open-source model that keeps all data within the organizations secured IT environment.
+ 
+In my view, these priorities are essential for scaling AI beyond individual use into robust organizational workflows. While tools like ChatGPT or Claude can enhance efficiency for individual Research Administration professionals, relying solely on them does not create a sustainable, scalable solution. To truly integrate AI into Research Administration, we need software designed with these principles in mind—allowing institutions to not only maintain high standards of flexibility, accuracy, reproducibility, and security but also to continuously improve as AI models evolve.
+ 
+I hope everyone is doing well in these interesting times, and if you are in Raleigh for HelioCampus over the next two days, I hope to get a chance to meet you in person.
+ 
+Warm Regards,
+ 
+Barrie
+ 
+![](barriesignatureblock.png) 
+
+ 
+![](AI4RA.png)
+
+AI4RA is Funded by National Science Foundation Grant #2427549
+
+Copyright (C) 2025 AI4RA. All rights reserved.

@@ -3,7 +3,8 @@
     "listing": "/index.html",
     "items": [
       "/posts/NewTask/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/Letter1/Letter1.html"
     ]
   }
 ]
